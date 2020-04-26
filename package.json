@@ -1,0 +1,26 @@
+{
+  "name": "new-npm-workflow",
+  "version": "1.0.0",
+  "description": "Just as the name implies, this is a simple setup for a basic npm workflow. It includes a file folder structure to start a basic static website project. Just clone the repo, run `npm install` and you're all set.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeylukas/new-npm-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coffeylukas/new-npm-workflow/issues"
+  },
+  "homepage": "https://github.com/coffeylukas/new-npm-workflow#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^2.0.0",
+    "tailwindcss": "^1.3.5"
+  }
+}
